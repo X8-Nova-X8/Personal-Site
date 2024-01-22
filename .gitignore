@@ -1,0 +1,10 @@
+Bootstrap.css
+Demo.css
+Demo.html
+StubCode.html
+
+# This is a comment
+# push an existing repository from the command line
+# git remote add origin https://github.com/X8-Nova-X8/Personal-Site.git
+# git branch -M main
+# git push -u origin main
