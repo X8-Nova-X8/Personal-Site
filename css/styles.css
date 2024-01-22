@@ -1,6 +1,11 @@
+html {
+    font-size: 16px; /* Set a base font size for the document */
+}
+
 body {    
     color: #40514E;
     font-family: 'Merriweather Sans', serif;
+    font-size: 1rem; /* 1rem equals 16px, the base font size */
     margin: 0;
     text-align: center;
 }
