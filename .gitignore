@@ -4,7 +4,10 @@ Demo.html
 StubCode.html
 
 # This is a comment
-# push an existing repository from the command line
+# Push an existing repository from the command line
+# git init
 # git remote add origin https://github.com/X8-Nova-X8/Personal-Site.git
 # git branch -M main
+# git add.
+# git commit -m "First Commit"
 # git push -u origin main
