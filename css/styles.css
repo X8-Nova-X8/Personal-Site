@@ -69,17 +69,37 @@ a:hover {
     width: 60%;
 }
 
+.center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
 .top-container {
     background-color: #E4F9F5;
     padding-top: 100px;
 }
 
 .middle-container {
+    position: relative;
     line-height: 2;
     margin: 6.25rem auto;
     /* text-align: left; */
     width: 80%;
 }
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
 
 .bottom-container {
     background-color: #66BFBF;
