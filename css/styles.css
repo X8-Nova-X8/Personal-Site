@@ -103,8 +103,10 @@ a:hover {
 .flex-container > div {
     position: relative;
     background-color: #f1f1f1;
-    flex: 1 0 auto; /* Let the image grow to fill available space */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    flex: 1; /* Let the image grow to fill available space */
+    flex-basis: auto;
+    align-self: stretch;
+    object-fit: contain; /* Maintain aspect ratio and cover the container */
     margin: 10px;
     padding: 20px;
     height: auto;
