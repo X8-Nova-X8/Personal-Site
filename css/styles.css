@@ -109,11 +109,7 @@ a:hover {
     object-fit: contain; /* Maintain aspect ratio and cover the container */
     margin: 10px;
     padding: 20px;
-    height: auto;
-    /* max-height: 100%;
-    max-width: 100%; /* Ensure images don't exceed their natural width */
     width: auto;
-    
   }
 
 .img-flex {
