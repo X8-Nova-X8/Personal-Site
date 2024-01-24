@@ -104,16 +104,16 @@ a:hover {
     background-color: #f1f1f1;
     flex: 1; /* Let the image grow to fill available space */
     flex-basis: auto;
-    /* align-self: stretch; */
-    object-fit: contain; /* Maintain aspect ratio and cover the container */
     margin: auto;
     padding: 20px;
+    width: 12.5rem;
     height: 12.5rem;
   }
 
 .img-flex {
     width: 100%;
     height: 100%;
+    object-fit: contain; /* Maintain aspect ratio and cover the container */
 }
 
 .bottom-container {
