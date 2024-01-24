@@ -92,6 +92,7 @@ a:hover {
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
+    flex-wrap: wrap;
   }
   
 .flex-container > div {
@@ -100,7 +101,6 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
     background-color: #f1f1f1;
     flex: 1; /* Let the image grow to fill available space */
     flex-basis: auto;
