@@ -89,6 +89,25 @@ a:hover {
     width: 80%;
 }
 
+.profile-flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+div.profile-flex {
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #f1f1f1;
+    flex: 1 0 auto; /* Let the image grow to fill available space */
+    margin: auto;
+    padding: 20px;
+}
+
+.profile {
+    width: 30%;
+}
+
 .flex-container {
     display: flex;
     /* background-color: DodgerBlue; */
@@ -107,7 +126,7 @@ a:hover {
     padding: 20px;
     width: 12.5rem;
     height: 12.5rem;
-  }
+}
 
 .img-flex {
     width: 100%;
@@ -144,10 +163,6 @@ a:hover {
 
 .pro {
     text-decoration: underline;
-}
-
-.profile {
-    width: 30%
 }
 
 .top-cloud {    
