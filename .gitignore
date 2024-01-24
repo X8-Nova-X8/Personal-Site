@@ -4,6 +4,7 @@ Demo.html
 StubCode.html
 
 # This is a comment
+
 # Push an existing repository from the command line
 # git init
 # git remote add origin https://github.com/X8-Nova-X8/Personal-Site.git
@@ -11,3 +12,8 @@ StubCode.html
 # git add.
 # git commit -m "First Commit."
 # git push -u origin main
+
+# git status
+# git log
+# git diff css/styles.css
+# git checkout css/styles.css
