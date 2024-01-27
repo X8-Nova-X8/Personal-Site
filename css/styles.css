@@ -10,13 +10,6 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 390px) {
-  .top-cloud {
-    /* right: calc((100% - 390px) / (1366 - 390) * (300 - 390) + 390px); */
-    right: calc(390px * (18.75rem / 1366px));
-  }
-}
-
 h1 {
   color: #66bfbf;
   font-family: "Sacramento", cursive;
@@ -57,9 +50,9 @@ p {
 a {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
-  margin: 0.625rem 1.25rem;
+  margin: 0.625rem 0.5rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -74,7 +67,7 @@ a:hover {
 
 .intro {
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 
 /* .center-div {
@@ -126,11 +119,21 @@ div.top-flex {
 /* <div class="profile-flex profile-contact-flex"></div>  */
 /* <div class="contact-flex profile-contact-flex"></div>  */
 
+.copy {
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex: 1 0 auto; /* Let the container grow to fill available space */
+  margin: auto;
+  padding: 1.25rem;
+}
+
 .profile {
   width: 30%;
 }
 
-.flex-container {
+.flex-container,
+.contact-details {
   display: flex;
   /* background-color: DodgerBlue; */
   flex-flow: row wrap;
@@ -148,6 +151,15 @@ div.top-flex {
   padding: 20px;
   width: 12.5rem;
   height: 12.5rem;
+}
+
+div.contact-details-flex {
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex: 1 0 auto; /* Let the container grow to fill available space */
+  margin: auto;
+  padding: 1.25rem;
 }
 
 .img-flex {
@@ -207,17 +219,27 @@ div.top-flex {
 }
 
 .atype,
-.separator {
+.separator,
+.at {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
-  margin: 0.625rem 1.25rem;
+  margin: 0.625rem 0.5rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
 .atype:hover {
+  color: none;
+}
+
+.at:hover {
   color: #eaf6f6;
+}
+
+.spacer {
+  width: auto;
+  height: 1.25rem;
 }
 
 .pi-bullet-icon {
@@ -225,7 +247,7 @@ div.top-flex {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 1rem;
+  font-size: 1.25rem;
   /* color: #c6ccd0; */
 }
 /*top: 50%; Adjust the vertical position as needed */
@@ -236,4 +258,22 @@ div.top-flex {
   font-size: 1rem;
   font-weight: 400;
   padding: 1.25rem 0;
+}
+
+@media screen and (max-width: 390px) {
+  .top-cloud {
+    /* right: calc((100% - 390px) / (1366 - 390) * (300 - 390) + 390px); */
+    right: calc(390px * (18.75rem / 1366px));
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .atype,
+  .separator,
+  .at,
+  .pi-bullet-icon {
+    font-size: 1rem;
+  }
 }
