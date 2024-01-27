@@ -10,7 +10,7 @@ StubCode.html
 # git remote add origin https://github.com/X8-Nova-X8/Personal-Site.git
 # git branch -M main
 # git add .
-# git commit -m "First Commit."
+# git commit -m "Fix margin to icon."
 # git push -u origin main
 
 # git status
