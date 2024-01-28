@@ -64,7 +64,7 @@ a:hover {
 }
 
 .contact-message {
-  margin: 1.5rem auto 2.75rem;
+  margin: 1.5rem auto 1.5rem;
   width: 80%;
 }
 
@@ -169,6 +169,11 @@ div.contact-details-flex {
   width: 100%;
   height: 100%;
   object-fit: contain; /* Maintain aspect ratio and cover the container */
+}
+
+.exp-div-1 {
+  width: 100%;
+  height: 100%;
 }
 
 .bottom-container {
