@@ -17,3 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // responsiveImage.alt = "Image for Small Screens";
   }
 });
+
+/* function closeOverlay() {
+  document.querySelector('.overlay-container').style.display = 'none';
+} */

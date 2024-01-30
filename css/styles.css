@@ -9,6 +9,38 @@ body {
   margin: 0;
   text-align: center;
   width: 100%;
+  user-select: none;
+}
+
+/* Container for the overlay */
+.overlay-container {
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5);  Semi-transparent black overlay */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.01
+  ); /* Extremely transparent black overlay */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other elements */
+  pointer-events: none; /* Allow mouse events to pass through the overlay */
+  touch-action: none;
+}
+
+/* Style the scrollable content below the overlay */
+.scrollable-content {
+  position: relative;
+  z-index: 1;
+  overflow-y: auto;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 h1 {
