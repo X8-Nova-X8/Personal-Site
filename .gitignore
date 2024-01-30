@@ -17,3 +17,21 @@ StubCode.html
 # git log
 # git diff css/styles.css
 # git checkout css/styles.css
+
+# How to solve this problem of "! [rejected] master -> master (fetch first)"
+# First Do this ...
+
+# git fetch origin master
+# git merge  master
+
+# Then, do this ...
+
+# git fetch origin master:tmp
+# git rebase tmp
+# git push origin HEAD:master
+# git branch -D tmp
+
+# git branch --show-current
+# git pull origin main
+# git push -u origin main
+
